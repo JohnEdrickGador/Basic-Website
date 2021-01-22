@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#1f2124;
+  width: 100%;
+}
+.nav li{
+  display: inline-block;
+}
+
+.nav a {
+  display:block;
+  color: white;
+  font-size: 17px;
+  padding:16px;
+  width: 100px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+.nav a:hover{
+  background-color:white;
+  color: black;
+}
+
+#logo{
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  margin-left: 10px;
+}
+.cover{
+  width: 100%;
+  height:500px;
+  position: absolute;
+  background:url(cover.jpg);
+  background-size: cover;
+ }
+ #name{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 100px;
+  font-size: 80px;
+  color: white;
+}
+#slogan{
+  font-family:'Montserrat', sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-top:-50px;
+}
+#coverbutton{
+  background:none;
+  font-family:'Montserrat', sans-serif;
+  font-size: 30px;
+  width: 300px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+#coverbutton:hover{
+  background:white;
+  color:#1f2124;
+  transform: scale(1.1);
+}
+.intro{
+  margin-top: 550px;
+}
+#intro{
+  font-family:'Montserrat', sans-serif;
+  font-size: 30px;
+}
+hr{
+  width:80%;
+}
+.column{
+  float: left;
+  width:31%;
+  padding:15px;
+  text-align: center;
+  position: relative;
+  
+}
+.row{
+  width:100%;
+  padding:none;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+    @media screen and (max-width:900px) {
+      .column {
+        width: 100%;
+      }
+      #obj{
+        font-family:'Montserrat', sans-serif;
+        font-size: 20px;
+      }
+      #desc{
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+    }
+    }
+  #obj{
+      font-family:'Montserrat', sans-serif;
+      font-size: 20px;
+    }
+  #desc{
+      font-family: 'Montserrat', sans-serif;
+      text-align: justify;
+    }
+  #objhead{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+  }
+  #fillphoto{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    transition: all 0.5s ease;
+  }
+  #fillphoto:hover{
+    transform:scale(1.1);
+  }
+  .portrait{
+    width:100%;
+    background-color:#1f2124;
+    height:600px;
+    padding-top: 10px;
+  }
+  .instructor{
+    float: left;
+    width:45%;
+    position:relative;
+    padding:14px;
+  }
+  #portrait{
+    width: 400px;
+    height: 400px;
+    padding-left:40px;
+  }
+  #portrait:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #meet{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+      color: white;
+  }
+  #description{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      color: white;
+  }
+
+  #reviews{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+      color: black;
+  }
+  #quote{
+      font-family:sans-serif;
+      font-size: 14px;
+      font-style: italic;
+      color: black;
+      text-align:center;
+  }
+  #source{
+      font-family:sans-serif;
+      font-size: 14px;
+      font-style:italic;
+      color: black;
+  }
+  .quotes{
+    width: 25%;
+    position: relative;
+    float: left;
+    text-align: center;
+  }
+  .reviewers{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer{
+    text-align: center;
+    position: absolute;
+    width:100%;
+    margin-top:30px;
+    height:50px;
+    background-color:#1f2124;
+    color: white;
+  }
